@@ -56,7 +56,7 @@ func (g *Graphics) loadImage(path string) error {
 
 func (g *Graphics) loadDir(dir string) error {
 	return filepath.Walk(dir, func(path string, info fs.FileInfo, err error) error {
-		if info.IsDir() {
+		if info != nil || info.IsDir() {
 			return nil
 		}
 		return g.loadImage(path)
