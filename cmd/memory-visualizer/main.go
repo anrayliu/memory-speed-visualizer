@@ -9,7 +9,7 @@ import (
 func main() {
 	rl.SetTraceLogLevel(rl.LogError)
 
-	win, err := internal.NewWin(internal.WindowW, internal.WindowH, "memoryVisualizer", 144)
+	win, err := internal.NewWin(internal.WindowW, internal.WindowH, "memoryVisualizer", 0)
 	if err != nil {
 		panic(err)
 	}
