@@ -40,32 +40,32 @@ func (c *Context) Init() {
 	infoList := []info{
 		{
 			colour: rl.NewColor(255, 0, 0, 255),
-			speed:  2345,
+			speed:  10512.8,
 			title:  "L1 Cache",
 		},
 		{
 			colour: rl.NewColor(0, 255, 0, 255),
-			speed:  894,
+			speed:  3831.2,
 			title:  "L2 Cache",
 		},
 		{
 			colour: rl.NewColor(0, 0, 255, 255),
-			speed:  368,
+			speed:  1602.0,
 			title:  "L3 Cache",
 		},
 		{
 			colour: rl.NewColor(255, 255, 0, 255),
-			speed:  48,
+			speed:  78.354,
 			title:  "RAM",
 		},
 		{
 			colour: rl.NewColor(255, 0, 255, 255),
-			speed:  7,
+			speed:  0.08865,
 			title:  "SSD",
 		},
 		{
 			colour: rl.NewColor(0, 255, 255, 255),
-			speed:  0.2,
+			speed:  0.00064,
 			title:  "HDD",
 		},
 	}
